@@ -3,7 +3,7 @@ import random
 r = random.randint(1,100)
 
 while True:#屬於執行
-    user = input('')
+    user = input('請猜猜看數字:')
     user = int(user)
     
     if user == r:
