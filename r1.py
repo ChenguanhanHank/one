@@ -2,17 +2,22 @@ import random
 
 r = random.randint(1,100)
 
+count = 0
 while True:#屬於執行
+    count+=1
     user = input('請猜猜看數字:')
     user = int(user)
     
-    if user == r:
+    if user == r:#三而一的if
         print('你猜中了')
+        print('這是你猜的第',count,'次')
         break
     elif user<r:
         print('比答案小')
     elif user>r:
        print('比答案大')
+    print('這是你猜的第',count,'次')
+
 
 
 
