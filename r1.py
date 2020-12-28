@@ -1,7 +1,7 @@
 import random
-
-r = random.randint(1,100)
-
+start = int(input('請輸入最小數字範圍: '))
+end = int(input('請輸入最大數字範圍: '))
+r = random.randint(start, end)
 count = 0
 while True:#屬於執行
     count+=1
@@ -24,6 +24,6 @@ while True:#屬於執行
 
 
 
-
+1
 
 
